@@ -40,19 +40,16 @@ footer {
 
 /**=== scrollbar ===*/
 ::-webkit-scrollbar {
-    width: 15px;
-}
-
-::-webkit-scrollbar-track {
-    background: #008000;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #f00;
-    border-radius: 16px;
-    transition: background .4s;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #ffa500;
-}
+    width: .6rem;
+    border-radius: .5rem;
+    background-color: hsl(0, 0%, 75%);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background-color: hsl(0, 0%, 65%);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(0, 0%, 55%);
+  }
